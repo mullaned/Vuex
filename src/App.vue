@@ -11,7 +11,7 @@
                 <br><br>
                 <app-another-counter></app-another-counter>
                 <hr>
-                <input type="text" :value="value" @input="updateValue">
+                <input type="text" v-model="value" @input="updateValue">
                 <p>{{value}}</p>
             </div>
         </div>
